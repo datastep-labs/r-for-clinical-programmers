@@ -6,3 +6,8 @@ renv/local/
 .Rhistory
 .RData
 .DS_Store
+# made by the programs (run them in file order)
+programs/output/*
+!programs/output/.gitkeep
+programs/data/*.rds
+logs/

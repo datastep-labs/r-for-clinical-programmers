@@ -20,7 +20,7 @@ account includes a monthly amount of codespace time, and without a payment metho
 | Folder or file | What |
 |---|---|
 | [START-HERE.md](START-HERE.md) | The lab: short stops, about 30 minutes |
-| [programs/](programs/) | Every program of the book, named by chapter (`09_1_adsl_hand.R` is chapter 9) |
+| [programs/](programs/) | Every program of the book, named by chapter (`09_1_domains.R` is chapter 9) |
 | `renv.lock` | The book's R packages, each with its exact version |
 | `.devcontainer/` | The setup of the codespace: R 4.4, Node.js, the packages and DataStep Studio for R |
 

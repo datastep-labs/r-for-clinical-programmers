@@ -1,0 +1,6 @@
+paramcd,include,dec,title
+WEIGHT,Y,1,Baseline weight (kg)
+HEIGHT,Y,1,Baseline height (cm)
+BMI,Y,1,Baseline body mass index (kg/m2)
+SYSBP,Y,0,Baseline systolic blood pressure (mmHg)
+DIABP,N,0,Baseline diastolic blood pressure (mmHg)

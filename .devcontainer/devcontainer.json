@@ -4,8 +4,7 @@
   "features": {
     "ghcr.io/devcontainers/features/node:1": {
       "version": "22"
-    },
-    "ghcr.io/devcontainers/features/sshd:1": {}
+    }
   },
   "hostRequirements": {
     "cpus": 2

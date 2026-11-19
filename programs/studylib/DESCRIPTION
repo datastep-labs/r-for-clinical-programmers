@@ -1,0 +1,12 @@
+Package: studylib
+Title: Functions of the CDISC Pilot Study
+Version: 0.1.0
+Authors@R: person("Study", "Programmer", role = c("aut", "cre"), email = "programmer@example.com")
+Description: Small functions that every table program of the study uses:
+    count subjects per group, and the big N of a population.
+License: MIT
+Encoding: UTF-8
+Imports: cli, dplyr, rlang
+Suggests: testthat (>= 3.0.0), pharmaverseadam
+Config/testthat/edition: 3
+Config/roxygen2/version: 8.1.1
