@@ -1,0 +1,35 @@
+{
+  "name": "R for Clinical Programmers",
+  "image": "ghcr.io/rocker-org/devcontainer/r-ver:4.4",
+  "features": {
+    "ghcr.io/devcontainers/features/node:1": {
+      "version": "22"
+    },
+    "ghcr.io/devcontainers/features/sshd:1": {}
+  },
+  "hostRequirements": {
+    "cpus": 2
+  },
+  "postCreateCommand": "bash .devcontainer/setup.sh",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "datastep-labs.datastep-r",
+        "-REditorSupport.r",
+        "-RDebugger.r-debugger"
+      ],
+      "settings": {
+        "workbench.editorAssociations": {
+          "*.md": "vscode.markdown.preview.editor"
+        },
+        "workbench.editor.empty.hint": "hidden",
+        "chat.disableAIFeatures": true
+      }
+    },
+    "codespaces": {
+      "openFiles": [
+        "START-HERE.md"
+      ]
+    }
+  }
+}

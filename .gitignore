@@ -1,0 +1,8 @@
+renv/library/
+renv/staging/
+renv/local/
+.triallens/
+.dsr/
+.Rhistory
+.RData
+.DS_Store
